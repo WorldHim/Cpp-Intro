@@ -1,0 +1,24 @@
+site_name: C++ 入门 | Cpp-Introduction
+site_url: 
+
+nav:
+  - 主页 Home: index.md
+  - 关于 About: about.md
+
+theme:
+  name: material
+
+plugins:
+  - search
+
+
+markdown_extensions:
+  - extra
+  - admonition
+  - meta
+  - sane_lists
+  - smarty
+  - toc: {
+    permalink: "#"
+  }
+  - wikilinks
