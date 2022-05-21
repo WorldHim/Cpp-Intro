@@ -1,5 +1,5 @@
 site_name: C++ 入门 | Cpp-Introduction
-site_url: http://cpp-intro.readthedocs.io/zh-CN/latest
+site_url: http://cpp-intro.readthedocs.io/zh-CN
 repo_url: https://github.com/WorldHim/Cpp-Intro
 site_description: C++ 入门 | Cpp-Introduction
 site_author: WorldHim
@@ -36,12 +36,15 @@ theme:
 extra:
   generator: true
   alternate:
-    - name: English
-      link: /en/ 
-      lang: en
+    - name: 简体中文
+      link: /zh-CN/ 
+      lang: zh
     - name: 繁体中文
       link: /zh-Hant/ 
       lang: zh-Hant
+    - name: English
+      link: /en/ 
+      lang: en
   version:
     provider: mike
     default: latest
