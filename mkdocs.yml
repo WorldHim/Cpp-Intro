@@ -1,5 +1,5 @@
 site_name: C++ 入门 | Cpp-Introduction
-site_url: cpp-intro.readthedocs.io
+site_url: http://cpp-intro.readthedocs.io/
 
 nav:
   - 主页 Home: index.md
