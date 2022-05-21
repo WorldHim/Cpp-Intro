@@ -19,7 +19,7 @@ plugins:
   - git-revision-date-localized
   - git-authors
   - git-committers:
-  	repository: WorldHim/Cpp-Intro
+  	repository: worldhim/cpp-intro
   	branch: main
   - git-latest-release
   - macros
