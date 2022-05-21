@@ -9,7 +9,9 @@ theme:
   name: material
 
 plugins:
-  - search
+  - search:{
+  	lang: cn
+  }
 
 
 markdown_extensions:
