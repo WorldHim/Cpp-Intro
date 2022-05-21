@@ -16,7 +16,6 @@ theme:
     repo: fontawesome/brands/github
   custom_dir: overrides
   palette: 
-    primary: grey
     - scheme: default
       toggle:
         icon: material/brightness-7 
