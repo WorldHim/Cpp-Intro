@@ -9,4 +9,5 @@ mkdocs-git-committers-plugin
 mkdocs_latest_release_plugin
 mkdocs-macros-plugin
 click-man
-
+jieba
+Pillow
