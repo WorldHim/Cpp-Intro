@@ -1,5 +1,9 @@
 site_name: C++ 入门 | Cpp-Introduction
 site_url: http://cpp-intro.readthedocs.io/
+repo_url: https://github.com/WorldHim/Cpp-Intro
+site_description: C++ 入门 | Cpp-Introduction
+site_author: WorldHim
+
 copyright: Copyright © 2022 [WorldHim](http://cpp-intro.readthedocs.io/)
 
 nav:
@@ -8,10 +12,18 @@ nav:
 
 theme:
   name: material
+  locale: zh-CN
 
 plugins:
   - search:
-  	lang: zh-cn
+  	foo: bar
+  - git-revision-date-localized
+  - git-authors
+  - git-committers:
+  	repository: WorldHim/Cpp-Intro
+  	branch: main
+  - git-latest-release
+  - macros
 
 
 markdown_extensions:
@@ -20,7 +32,6 @@ markdown_extensions:
   - meta
   - sane_lists
   - smarty
-  - toc: {
+  - toc:
     permalink: "#"
-  }
   - wikilinks
