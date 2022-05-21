@@ -1,5 +1,6 @@
 site_name: C++ 入门 | Cpp-Introduction
 site_url: http://cpp-intro.readthedocs.io/
+copyright: Copyright © 2022 [WorldHim](http://cpp-intro.readthedocs.io/)
 
 nav:
   - 主页 Home: index.md
