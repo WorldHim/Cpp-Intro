@@ -1,11 +1,2 @@
-markdown
 mkdocs >= 1.3.0
 mkdocs-material
-metadata
-jinja2
-PyYAML
-Pygments
-commonmark
-typing-extensions
-urllib3
-zipp
