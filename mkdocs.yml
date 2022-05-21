@@ -10,9 +10,8 @@ theme:
   name: material
 
 plugins:
-  - search:{
-  	lang: cn
-  }
+  - search:
+  	lang: zh-cn
 
 
 markdown_extensions:
